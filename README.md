@@ -101,7 +101,7 @@ microstructure noise.
 
 ### Noise Model
 
-Observed log-price: Y_t = X_t + η ε_t
+Observed log-price: $Y_t = X_t + η ε_t$
 
 Two estimators for noise scale η: - Lag-1 autocovariance method -
 Realized variance explosion method
