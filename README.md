@@ -31,8 +31,8 @@ volatility?
 
 ### Methodology
 
--   Daily log-returns computed as r_t = log(P_t / P\_{t-1})
--   Volatility proxy: squared returns r_t\^2
+-   Daily log-returns computed as $r_t = log(P_t / P\_{t-1})$
+-   Volatility proxy: squared returns $r_t\^2$
 -   Pre-pandemic sample: 2015--2019
 -   Post-pandemic sample: 2020--2024
 -   Weak stationarity diagnostics (ADF, Ljung--Box)
@@ -55,7 +55,7 @@ volatility.
 
 Returns are modeled as:
 
-ε_t = σ_t Z_t, Z_t \~ i.i.d.(0,1)
+$$ε_t = σ_t Z_t, Z_t \~ i.i.d.(0,1)$$
 
 Estimated via Gaussian Quasi-Maximum Likelihood.
 
